@@ -1,0 +1,370 @@
+/* ========== Xtra Small Device Responsiveness Start ============ */
+
+@media (max-width:575.98px) {
+    header img {
+        width: 120px;
+    }
+
+    #banner {
+        padding-top: 230px;
+    }
+
+    .banner-text {
+        display: none;
+    }
+
+    .banner-form-main {
+        position: relative;
+    }
+
+    .banner-form {
+        margin: 0;
+        padding: 20px 15px;
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner-form h3 {
+        font-size: 19px;
+    }
+
+    #butterfly {
+        padding-top: 400px;
+        padding-bottom: 30px;
+    }
+
+    .butterfly-item {
+        margin-bottom: 30px;
+    }
+
+    #slider .secondary-btn {
+        margin-top: 80px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #A2A2A2;
+        color: transparent;
+        border: 0;
+    }
+
+    .slick-dots li.slick-active button {
+        background: #222;
+    }
+
+    #listview {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    #listview .secondary-btn {
+        margin-bottom: 40px;
+    }
+
+    #link h2 {
+        padding-bottom: 25px;
+    }
+
+    #link ul {
+        padding-top: 15px;
+    }
+
+    #paragraph {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    #paragraph p {
+        padding-bottom: 15px;
+    }
+
+    footer {
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+
+    footer ul {
+        padding-top: 15px;
+    }
+
+    #second-page #jumpbotron ul li:last-child {
+        margin-top: 40px;
+    }
+
+    #second-page .banner-form h3 {
+        font-size:18px;
+    }
+
+    @media (min-width:480px) and (max-width:575.98px) {
+        .banner-form {
+            margin: 0;
+            padding: 30px;
+            position: absolute;
+            width: 420px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #second-page #jumpbotron ul li:last-child {
+            margin-top: 0;
+        }
+
+    }
+
+}
+
+/* ========== Xtra Small Device Responsiveness End ============ */
+
+/* ========== Small Device Responsiveness Start ============ */
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    header img {
+        width: 120px;
+    }
+
+    #banner {
+        padding-top: 230px;
+    }
+
+    .banner-text {
+        display: none;
+    }
+
+    .banner-form-main {
+        position: relative;
+    }
+
+    .banner-form {
+        margin: 0;
+        padding: 20px 15px;
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner-form h3 {
+        font-size: 19px;
+    }
+
+    #butterfly {
+        padding-top: 400px;
+        padding-bottom: 30px;
+    }
+
+    .butterfly-item {
+        margin-bottom: 30px;
+    }
+
+    #slider .secondary-btn {
+        margin-top: 80px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #A2A2A2;
+        color: transparent;
+        border: 0;
+    }
+
+    .slick-dots li.slick-active button {
+        background: #222;
+    }
+
+    #listview {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    #listview .secondary-btn {
+        margin-bottom: 40px;
+    }
+
+    #link h2 {
+        padding-bottom: 25px;
+    }
+
+    #link ul {
+        padding-top: 15px;
+    }
+
+    #paragraph {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    #paragraph p {
+        padding-bottom: 15px;
+    }
+
+    footer {
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+
+    footer ul {
+        padding-top: 15px;
+    }
+
+    .banner-form {
+        margin: 0;
+        padding: 30px;
+        position: absolute;
+        width: 420px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+/* ========== Small Device Responsiveness End ============ */
+
+/* ========== Small Device Responsiveness Start ============ */
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    header img {
+        width: 150px;
+    }
+
+    #banner {
+        padding-top: 230px;
+    }
+
+    .banner-text {
+        display: none;
+    }
+
+    .banner-form-main {
+        position: relative;
+    }
+
+    .banner-form {
+        margin: 0;
+        padding: 20px 15px;
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner-form h3 {
+        font-size: 19px;
+    }
+
+    #butterfly {
+        padding-top: 400px;
+        padding-bottom: 30px;
+    }
+
+    .butterfly-item {
+        margin-bottom: 30px;
+    }
+
+    #slider .secondary-btn {
+        margin-top: 80px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #A2A2A2;
+        color: transparent;
+        border: 0;
+    }
+
+    .slick-dots li.slick-active button {
+        background: #222;
+    }
+
+    #listview {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    #listview .secondary-btn {
+        margin-bottom: 40px;
+    }
+
+    #link h2 {
+        padding-bottom: 25px;
+    }
+
+    #link ul {
+        padding-top: 15px;
+    }
+
+    #paragraph {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    #paragraph p {
+        padding-bottom: 15px;
+    }
+
+    footer {
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+
+    footer ul {
+        padding-top: 15px;
+    }
+
+    .banner-form {
+        margin: 0;
+        padding: 30px;
+        position: absolute;
+        width: 420px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+/* ========== Small Device Responsiveness End ============ */

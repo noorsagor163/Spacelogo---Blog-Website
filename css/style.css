@@ -1,0 +1,361 @@
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,p {
+    margin-bottom:0;
+}
+
+ul,ol {
+    list-style:none;
+}
+
+a,a:hover {
+    text-decoration:none;
+}
+
+h2 {
+    font-family:ubu-bold;
+    font-size:25px;
+    color:#1E1E1E;
+    padding-bottom:40px;
+}
+
+h3 {
+    font-family: ubu-medium;
+    font-size:20px;
+    color:#1E1E1E;
+    padding-top:30px;
+    padding-bottom:15px;
+}
+
+p {
+    font-family:ubu-regular;
+    font-size:15px;
+    color:#1E1E1E;
+}
+
+@font-face {
+    src:url(../fonts/Ubuntu-Bold.ttf);
+    font-family: ubu-bold;
+}
+
+@font-face {
+    src:url(../fonts/Ubuntu-Medium.ttf);
+    font-family: ubu-medium;
+}
+
+@font-face {
+    src:url(../fonts/Ubuntu-Regular.ttf);
+    font-family: ubu-regular;
+}
+
+@font-face {
+    src:url(../fonts/Ubuntu-Light.ttf);
+    font-family: ubu-light;
+}
+
+/* ============== Banner Part CSS Start ============== */
+
+header {
+    position: absolute;
+    padding-top:20px;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+header span {
+    font-family:ubu-medium;
+    font-size: 18px;
+    color:#1E1E1E;
+}
+
+#banner {
+    background:url(../images/desktop.jpg) no-repeat center;
+    background-size:cover;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.banner-text h1 {
+    font-family:ubu-bold;
+    font-size:40px;
+    color:#fff;
+    padding-top:100px;
+    padding-bottom:10px;
+}
+
+.banner-text p {
+    font-family:ubu-medium;
+    font-size: 18px;
+    color:#fff;
+}
+
+.banner-form {
+    background:#0F0000;
+    margin: 0 30px;
+    padding:30px;
+    box-sizing:border-box;
+}
+
+.banner-form h3 {
+    font-family:ubu-medium;
+    font-size:20px;
+    color:#fff;
+    text-align:center;
+    padding-top:0;
+}
+
+.banner-form label {
+    font-family:ubu-regular;
+    font-size:12px;
+    color:#fff;
+    padding-top:10px;
+}
+
+.form-check-input {
+	position: absolute;
+	margin-top: 15px;
+}
+
+.banner-form button {
+    width:100%;
+    display:block;
+    border:0;
+    font-family:ubu-medium;
+    font-size:18px;
+    color:#fff;
+    background:#23D1B1;
+    border-radius:30px;
+    padding: 10px 0;
+    text-align:center;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+/* ============== Banner Part CSS End ============== */
+
+/* ============== Butterfly Icon Part CSS Start ============== */
+
+#butterfly {
+    padding: 60px 0;
+}
+
+.butterfly-item p {
+    font-family:ubu-regular;
+    font-size: 15px;
+    color:#444;
+    padding-top:10px;
+}
+
+.butterfly-item p span {
+    color:#DE2153;
+}
+
+/* ============== Butterfly Icon Part CSS End ============== */
+
+/* ============== Slider Part CSS Start ============== */
+
+#slider {
+    background:#F6F6F6;
+    padding: 60px 0;
+}
+
+.secondary-btn {
+    text-align: center;
+    margin-top:40px;
+}
+
+.secondary-btn a {
+    font-family: ubu-medium;
+    font-size: 15px;
+    color:#fff;
+    background:#E01F4E;
+    padding: 10px 25px;
+    border-radius:30px;
+}
+
+/* ============== Slider Part CSS End ============== */
+
+/* ============== Listview Part CSS Start ============== */
+
+#listview {
+    padding:100px 0;
+}
+
+/* ============== Listview Part CSS End ============== */
+
+/* ============== Link Part CSS Start ============== */
+
+#link {
+    padding:60px 0;
+    padding-bottom:50px;
+    background:#F6F6F6;
+}
+
+.lorem-link li {
+    margin-bottom: 10px;
+}
+
+.lorem-link li a {
+    font-family:ubu-regular;
+    font-size:15px;
+    color:#DE2153;
+    padding-left: 5px;
+}
+
+/* ============== Link Part CSS End ============== */
+
+/* ============== Paragraph Part CSS Start ============== */
+
+#paragraph {
+    padding-top:60px;
+    padding-bottom: 90px;
+}
+
+#paragraph p {
+    padding-bottom:10px;
+}
+
+/* ============== Paragraph Part CSS End ============== */
+
+/* ============== Paragraph Part CSS End ============== */
+
+#jumpbotron {
+    background:#1E1E1E;
+    padding-top:60px;
+    padding-bottom:75px;
+}
+
+#jumpbotron h2, #jumpbotron p {
+    color:#fff;
+}
+
+/* ============== Paragraph Part CSS End ============== */
+
+/* ============== Footer Part CSS Start ============== */
+
+footer {
+    background:#DE2153;
+    padding:55px 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer ul li a {
+    font-family:ubu-regular;
+    font-size:15px;
+    color:#fff;
+}
+
+/* ============== Footer Part CSS End ============== */
+
+/* ============== Second Page CSS Start ============== */
+
+#header2 {
+    background:#E01F4E;
+    padding-bottom:20px;
+    position:static;
+}
+
+.page-path {
+    padding-top:25px;
+}
+
+.page-path p {
+    font-family:ubu-ragular;
+    font-size:12px;
+}
+
+#top-para h1 {
+    font-family: ubu-bold;
+    font-size:30px;
+    color:#1E1E1E;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+#top-para a {
+    color:#DE2153;
+}
+
+#second-page #listview {
+    padding-top:70px;
+}
+
+#second-page #listview ul li {
+    display:inline-block;
+    margin: 10px 5px;
+    margin-top:0;
+}
+
+#second-page #listview ul li a {
+    font-family:ubu-regular;
+    font-size:15px;
+    color:#E01F4E;
+}
+
+#second-page #jumpbotron ul li {
+    display:inline-block;
+    margin: 0 10px;
+}
+
+#second-page #jumpbotron ul li a {
+    font-family: ubu-medium;
+    font-size: 15px;
+    color:#fff;
+    background:#23D1B1;
+    padding: 10px 25px;
+    border-radius:30px;
+}
+
+.pagination {
+    margin-top:40px;
+	justify-content: center;
+}
+
+.page-link {
+	padding: 5px;
+	border: 0;
+}
+
+.page-link:hover {
+	background:transparent;
+}
+
+#second-page #paragraph {
+    border-top: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}
+
+#second-page .banner-form {
+    margin:0;
+    border-radius:10px;
+}
+
+#second-page .banner-form h3 {
+    padding-top:0;
+}
+
+.modal-content {
+	border-radius: 10px;
+}
+
+.modal-backdrop.show {
+	opacity: .7;
+}
+
+.modal-backdrop {
+	background-color: #fff;
+}
+
+/* ============== Second Page CSS End ============== */
